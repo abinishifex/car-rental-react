@@ -5,7 +5,7 @@ function CarCard({ id, images, name, price }) {
     <div className="bg-white w-72 rounded-xl shadow hover:shadow-lg transition duration-300">
       <div className="p-5 flex flex-col h-full">
         <img
-          src={images}
+          src={images.main}
           alt={name}
           className="w-full h-40 object-contain mb-4"
         />

@@ -28,9 +28,9 @@ const cars = [
 
     images: {
       main: "/cars/corolla.png",
-      front: "/cars/corolla-front.png",
-      interior: "/cars/corolla-interior.png",
-      side: "/cars/corolla-side.png",
+      front: "/cars/corolla.png",
+      interior: "/cars/corolla.png",
+      side: "/cars/corolla.png",
     },
   },
 

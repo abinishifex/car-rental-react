@@ -62,9 +62,9 @@ const cars = [
 
     images: {
       main: "/cars/hyundaiElantra.png",
-      front: "/cars/elantra-front.png",
-      interior: "/cars/elantra-interior.png",
-      side: "/cars/elantra-side.png",
+      front: "/cars/hyundaiElantra.png",
+      interior: "/cars/hyundaiElantra.png",
+      side: "/cars/hyundaiElantra.png",
     },
   },
 
@@ -96,9 +96,9 @@ const cars = [
 
     images: {
       main: "/cars/BYD.png",
-      front: "/cars/byd-front.png",
-      interior: "/cars/byd-interior.png",
-      side: "/cars/byd-side.png",
+      front: "/cars/BYD.png",
+      interior: "/cars/BYD.png",
+      side: "/cars/BYD.png",
     },
   },
 
@@ -130,9 +130,9 @@ const cars = [
 
     images: {
       main: "/cars/RAV4.png",
-      front: "/cars/rav4-front.png",
-      interior: "/cars/rav4-interior.png",
-      side: "/cars/rav4-side.png",
+      front: "/cars/RAV4.png",
+      interior: "/cars/RAV4.png",
+      side: "/cars/RAV4.png",
     },
   },
 
@@ -163,9 +163,9 @@ const cars = [
 
     images: {
       main: "/cars/Dezire.png",
-      front: "/cars/dzire-front.png",
-      interior: "/cars/dzire-interior.png",
-      side: "/cars/dzire-side.png",
+      front: "/cars/Dezire.png",
+      interior: "/cars/Dezire.png",
+      side: "/cars/Dezire.png",
     },
   },
 
@@ -196,9 +196,9 @@ const cars = [
 
     images: {
       main: "/cars/dashing.png",
-      front: "/cars/dashing-front.png",
-      interior: "/cars/dashing-interior.png",
-      side: "/cars/dashing-side.png",
+      front: "/cars/dashing.png",
+      interior: "/cars/dashing.png",
+      side: "/cars/dashing.png",
     },
   },
 
@@ -229,9 +229,9 @@ const cars = [
 
     images: {
       main: "/cars/id4.png",
-      front: "/cars/id4-front.png",
-      interior: "/cars/id4-interior.png",
-      side: "/cars/id4-side.png",
+      front: "/cars/id4.png",
+      interior: "/cars/id4.png",
+      side: "/cars/id4.png",
     },
   },
 
@@ -239,7 +239,7 @@ const cars = [
     id: 8,
     name: "BMW 3 Series",
     price: 5800,
-    featured: false,
+    featured: true,
 
     description:
       "Luxury sports sedan engineered for drivers who love performance and premium comfort.",
@@ -262,9 +262,9 @@ const cars = [
 
     images: {
       main: "/cars/bmw3.png",
-      front: "/cars/bmw-front.png",
-      interior: "/cars/bmw-interior.png",
-      side: "/cars/bmw-side.png",
+      front: "/cars/bmw3.png",
+      interior: "/cars/bmw3.png",
+      side: "/cars/bmw3.png",
     },
   },
 ];

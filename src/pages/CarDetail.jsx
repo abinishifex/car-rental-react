@@ -31,8 +31,8 @@ function CarDetail(){
         return <h2 className="text-center mt-20 text-2xl font-bold">Vehicle Not Found</h2>
     }
 const relatedCars = cars
-    .filter(car => car.id !== vehicle.id)
-    .slice(0, 3);
+    .filter(car => car.id !== vehicle.id && car.catagory === vehicle.catagory)
+    .slice(0, 4);
 
 
     return (
@@ -46,13 +46,13 @@ const relatedCars = cars
                         <img src={selectedImage} alt= {vehicle.name} 
                         className="w-full h-[420px] object-contain"/>
                     </div>
-
-                    <div className="grid grid-cols-4 gap-4 mt-4">
+                     {/* differnt angle of the car */}
+                    {/* <div className="grid grid-cols-4 gap-4 mt-4">
                         {Object.values(vehicle.images).map((img, i) => (
                             <img key={i} src={img} onClick={() => setSelectedImage(img)} 
                             className="cursor-pointer rounded-xl border hover:border-red-500 transition"/>
                             ))}
-                    </div>
+                    </div> */}
                     <div className="bg-white rounded-2xl shadow p-6 mt-6">
                             <h1 className="text-3xl font-bold">
                                 {vehicle.name}
@@ -122,16 +122,16 @@ const relatedCars = cars
                 </div>
 
                 <div className="mt-20">
-                    <h2 className="text-2xl font-bold mb-8">
-                    You May Also Like
-                    </h2>
-    
-                    <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                        {relatedCars.map(car =>(
-                            <CarCard key={car.id} {...car} />
-                        ))}
-                    </div>
-                </div>
+            <h2 className="text-2xl font-bold mb-8">
+                You May Also Like
+            </h2>
+
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {relatedCars.map(car => (
+                <CarCard key={car.id} {...car} />
+                ))}
+            </div>
+            </div>  
             </div>
         </section>
     );

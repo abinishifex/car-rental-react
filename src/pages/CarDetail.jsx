@@ -87,14 +87,36 @@ const relatedCars = cars
                     </div>
                 </div>
                 
-                <div className="bg-white rounded-2xl shadow p-6 h-fit">
-                    <h2 className="text-2xl font-bold mb-4">
+                <div className="bg-white rounded-2xl shadow-xl  p-8 h-fit sticky top-24 border">
+                    <h2 className="text-2xl font-bold mb-6">
                         Book This Vehicle
                     </h2>
 
-                    <button className="w-full bg-red-600 text-white py-3 rounded-xl hover:bg-red-700">
+                    
+
+                            <div className="mb-6">
+                        <p className="text-gray-500 text-sm">Starting From</p>
+                        <p className="text-3xl font-bold text-red-600">
+                            {vehicle.price.toLocaleString()}Birr
+                            <span className="text-base text-gray-500 font-normal">
+                            {" "}/ day
+                            </span>
+                        </p>
+                    </div>
+                    <div className=" border-t my-6"></div>
+
+                    <ul className="space-y-3 text-sm text-gray-600 mb-6">
+                        <li>✔ Free cancellation</li>
+                        <li>✔ No hidden charges</li>
+                        <li>✔ Insurance included</li>
+                        <li>✔ 24/7 Customer support</li>
+                    </ul>
+
+                    
+                    <button className="w-full bg-red-600 text-white py-3 rounded-xl text-lg font-semibold hover:bg-red-700 transition duration-300 shadow-md">
                         Book Now
                     </button>
+
                 </div>
 
                 </div>
@@ -104,7 +126,7 @@ const relatedCars = cars
                     You May Also Like
                     </h2>
     
-                    <div className="grid sm: grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {relatedCars.map(car =>(
                             <CarCard key={car.id} {...car} />
                         ))}

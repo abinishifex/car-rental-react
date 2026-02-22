@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function CarCard({ id, images, name, price }) {
   return (
-    <div className="bg-white w-72 rounded-xl shadow hover:shadow-lg transition duration-300">
+    <div className="bg-white rounded-xl shadow hover:shadow-lg transition duration-300">
       <div className="p-5 flex flex-col h-full">
         <img
           src={images.main}

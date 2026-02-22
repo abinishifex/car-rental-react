@@ -47,12 +47,12 @@ const relatedCars = cars
                         className="w-full h-[420px] object-contain"/>
                     </div>
                      {/* differnt angle of the car */}
-                    {/* <div className="grid grid-cols-4 gap-4 mt-4">
+                    <div className="grid grid-cols-4 gap-4 mt-4">
                         {Object.values(vehicle.images).map((img, i) => (
                             <img key={i} src={img} onClick={() => setSelectedImage(img)} 
                             className="cursor-pointer rounded-xl border hover:border-red-500 transition"/>
                             ))}
-                    </div> */}
+                    </div>
                     <div className="bg-white rounded-2xl shadow p-6 mt-6">
                             <h1 className="text-3xl font-bold">
                                 {vehicle.name}

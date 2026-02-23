@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 
 function CarCard({ id, images, name, price }) {
+  console.log("Images:", images);
   return (
     <div className="bg-white rounded-xl shadow hover:shadow-lg transition duration-300">
       <div className="p-5 flex flex-col h-full">
         <img
-          src={images.main}
+          src={typeof images === "string" ? images : images?.main}
           alt={name}
           className="w-full h-40 object-contain mb-4"
         />

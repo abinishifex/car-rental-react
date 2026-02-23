@@ -42,17 +42,17 @@ const relatedCars = cars
 
                     <div className="lg:col-span-2">
 
-                    <div className="bg-white rounded-2xl p-6 shadow">
+                    <div className="bg-white rounded-2xl p-6 mt-9 shadow">
                         <img src={selectedImage} alt= {vehicle.name} 
                         className="w-full h-[420px] object-contain"/>
                     </div>
                      {/* differnt angle of the car */}
-                    <div className="grid grid-cols-4 gap-4 mt-4">
+                    {/* <div className="grid grid-cols-4 gap-4 mt-4">
                         {Object.values(vehicle.images).map((img, i) => (
                             <img key={i} src={img} onClick={() => setSelectedImage(img)} 
                             className="cursor-pointer rounded-xl border hover:border-red-500 transition"/>
                             ))}
-                    </div>
+                    </div> */}
                     <div className="bg-white rounded-2xl shadow p-6 mt-6">
                             <h1 className="text-3xl font-bold">
                                 {vehicle.name}
@@ -87,7 +87,7 @@ const relatedCars = cars
                     </div>
                 </div>
                 
-                <div className="bg-white rounded-2xl shadow-xl  p-8 h-fit sticky top-24 border">
+                <div className="bg-white rounded-2xl shadow-xl  p-8 py-15 flex flex-col align-top h-fit sticky top-24 border">
                     <h2 className="text-2xl font-bold mb-6">
                         Book This Vehicle
                     </h2>

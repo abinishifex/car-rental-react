@@ -6,7 +6,7 @@ function CarService() {
     <section className="bg-gray-50 min-h-screen py-16">
       <div className="max-w-7xl mx-auto px-6">
 
-        <h1 className="text-3xl font-bold mb-10">
+        <h1 className="text-3xl font-bold mb-10 mt-10">
           Our Vehicles
         </h1>
 
@@ -15,10 +15,7 @@ function CarService() {
           {cars.map((car) => (
             <CarCard
               key={car.id}
-              id={car.id}
-              image={car.image}
-              name={car.name}
-              price={car.price}
+              {...car}
             />
           ))}
 

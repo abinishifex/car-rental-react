@@ -58,9 +58,7 @@ function Contact() {
           </button>
           </form>
          </div>
-         
-      </div>
-      <div className="bg-white p-8 rounded-2xl shadow-md space-y-8">
+         <div className="bg-white p-8 rounded-2xl shadow-md space-y-8">
 
   <h2 className="text-xl font-semibold border-l-4 border-red-600 pl-3">
     Contact Information
@@ -97,6 +95,8 @@ function Contact() {
   </div>
 
 </div>
+      </div>
+      
     </div>
   );
 }

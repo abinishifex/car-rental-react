@@ -60,6 +60,30 @@ function Contact() {
          </div>
          
       </div>
+      <div className="bg-white p-8 rounded-2xl shadow-md space-y-8">
+
+  <h2 className="text-xl font-semibold border-l-4 border-red-600 pl-3">
+    Contact Information
+  </h2>
+
+  <div>
+    <h3 className="font-semibold mb-2">Phone Number</h3>
+    <p className="text-gray-600 text-sm">
+      +251 912 345 678 <br />
+      +251 912 345 679
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold mb-2">Our Location</h3>
+    <p className="text-gray-600 text-sm">
+      Haile Gebreselassie St. Addis Ababa, Ethiopia
+    </p>
+  </div>
+
+  
+
+</div>
     </div>
   );
 }

@@ -81,7 +81,20 @@ function Contact() {
     </p>
   </div>
 
-  
+  <div>
+    <h3 className="font-semibold mb-2">Email Address</h3>
+    <p className="text-gray-600 text-sm">
+      info@autonest.com
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold mb-2">Business Hours</h3>
+    <p className="text-gray-600 text-sm">
+      Monday - Friday: 8:00 AM - 8:00 PM <br />
+      Saturday - Sunday: 9:00 AM - 6:00 PM
+    </p>
+  </div>
 
 </div>
     </div>

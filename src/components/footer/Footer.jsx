@@ -37,7 +37,7 @@ const Footer = ()=> {
                     <li><a href="/" className="hover:text-white">Home</a></li>
                     <li><a href="/about" className="hover:text-white">About us</a></li>
                     <li><a href="/services" className="hover:text-white">Car Service</a></li>
-                    <li><a href="/contacts" className="hover:text-white">Contact</a></li>
+                    <li><a href="/contact" className="hover:text-white">Contact</a></li>
                 </ul>
                 </div>
 

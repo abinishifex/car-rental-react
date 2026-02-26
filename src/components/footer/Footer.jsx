@@ -3,6 +3,7 @@ import instagram from "../../assets/social/instagram.svg";
 import Xicon from "../../assets/social/instagram.svg";
 import linkedin from "../../assets/social/linkedin.svg";
 import tiktok from "../../assets/social/tiktok.svg";
+import { Link } from "react-router-dom";
 
 const Footer = ()=> {
 
@@ -34,10 +35,10 @@ const Footer = ()=> {
                 <div>
                      <h4 className="text-lg font-semibold mb-4">Page</h4>
                 <ul className="space-y-2 text-sm text-gray-300">
-                    <li><a href="/" className="hover:text-white">Home</a></li>
-                    <li><a href="/about" className="hover:text-white">About us</a></li>
-                    <li><a href="/services" className="hover:text-white">Car Service</a></li>
-                    <li><a href="/contact" className="hover:text-white">Contact</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About us</Link></li>
+                    <li><Link to="/services">Car Service</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
                 </div>
 

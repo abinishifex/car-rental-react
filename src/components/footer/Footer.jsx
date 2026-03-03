@@ -58,13 +58,14 @@ const Footer = ()=> {
                         <a href="tell: +2519988462046" className="block hover:text-white">📞 +251988462046</a>
                         <a href="mailto:support@autonestrental.com" className="block hover:text-white">✉ support@autonestrental.com</a>
                         <a href="https://maps.google.com" target="_blank" rel="noopener noreferreer" className="block hover: text-white">📍 Addis Ababa, Ethiopia</a>
+                        <p>Thanks you for choosing  us</p>
                     </div>
                 </div>
             </div>
             
             <div className="border-t border-gray-700 mt-12 pt-4 px-6 max-w-7xl mx-auto flex -col md:flex-row justify-between text-xs text-gray-400">
                 <p>© 2025 AutoNest. All rights reserved.</p>
-                <p>Made with ❤️ in Ethiopia</p>
+                <p>Made in Ethiopia</p>
             </div>
         </footer>
     );

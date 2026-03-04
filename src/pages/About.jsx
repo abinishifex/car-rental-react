@@ -16,8 +16,7 @@ function About() {
              and reliable for everyone. What started as a small local service
               has grown into a trusted name in vehicle rentals.
             We believe that every journey should start with confidence. 
-            That's why we maintain our fleet to the highest standards and
-             provide transparent pricing with no hidden fees.
+            
           </p>
         
         </div>

@@ -107,8 +107,11 @@ const relatedCars = cars
 
                     <ul className="space-y-3 text-sm text-gray-600 mb-6">
                         <li>✔ Free cancellation</li>
+                        <li>✔ Free access trial</li>
                         <li>✔ Insurance included</li>
                         <li>✔ 24/7 Customer support</li>
+                        <li>✔ Unlimited mileage</li>
+                        <li>✔ Roadside assistance</li>
                     </ul>
 
                     

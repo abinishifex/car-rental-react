@@ -68,14 +68,14 @@ function Contact() {
     <h3 className="font-semibold mb-2">Phone Number</h3>
     <p className="text-gray-600 text-sm">
       +251 912 345 678 <br />
-      +251 912 345 679
+      +25 988462046
     </p>
   </div>
 
   <div>
     <h3 className="font-semibold mb-2">Our Location</h3>
     <p className="text-gray-600 text-sm">
-      Haile Gebreselassie St. Addis Ababa, Ethiopia
+      Bole selam city mall. Addis Ababa, Ethiopia
     </p>
   </div>
 

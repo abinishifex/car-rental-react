@@ -66,7 +66,7 @@ const relatedCars = cars
                                 {vehicle.description}
                             </p>
 
-                            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+                                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
 
             {Object.entries(vehicle.specs).map(([key,value]) => (
         <Spec key={key} label={key} value={value}/>
@@ -111,7 +111,7 @@ const relatedCars = cars
                         <li>✔ Insurance included</li>
                         <li>✔ 24/7 Customer support</li>
                         <li>✔ Unlimited mileage</li>
-                        <li>✔ Roadside assistance</li>
+                        
                     </ul>
 
                     
@@ -140,4 +140,4 @@ const relatedCars = cars
 
 }
 
-export default CarDetail;
+export default CarDetail;   
